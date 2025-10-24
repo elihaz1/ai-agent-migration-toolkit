@@ -1,0 +1,61 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+terraform.tfplan
+crash.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.local
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Node
+node_modules/
+npm-debug.log
+
+# Cloud credentials (IMPORTANT: Never commit these!)
+*.json
+!examples/**/*.json
+credentials/
+secrets/
+
+# Project-specific
+firewall-export.xml
+panorama-export.xml
+config-export.*
+*-export-*
+
+# Test results
+test-results/
+test-reports/
